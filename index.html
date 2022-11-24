@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>기온별 옷차림 - 날씨 및 옷차림 추천</title>
+    <script
+      src="https://kit.fontawesome.com/096073a2a8.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script type="module" src="./src/main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="title">기온별 옷차림</div>
+        <div class="search">
+          <input
+            class="location-search"
+            type="text"
+            placeholder="도시를 검색해보세요."
+          />
+          <i class="fas fa-search-location"></i>
+        </div>
+        <div class="country"></div>
+      </div>
+    </header>
+    <main>
+      <h1 class="location"></h1>
+      <section class="weather-section">
+        <div class="weather-img"></div>
+        <div class="weather-data">
+          <ul class="temp-list"></ul>
+          <div class="time"></div>
+        </div>
+      </section>
+      <h1 class="suggestion">What should I wear today?</h1>
+      <section class="contents-section">
+        <div class="clothes content">
+          <h2 class="suggestion-sub">이런 날씨엔..</h2>
+          <ul class="clothes-list"></ul>
+        </div>
+        <div class="made-by content">
+          Made by
+          <a
+            class="link"
+            href="https://onlydev.tistory.com/"
+            title="개발 전용차선"
+            rel="noopener noreferrer"
+            target="_blank"
+            >OnlyDev</a
+          >
+          <a
+            class="link"
+            title="GitHub"
+            href="https://github.com/ByungyeonKim"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
