@@ -1,6 +1,6 @@
 export default class Weather {
   constructor(key) {
-    this.key = a64018b69373ca9136664eb9e917ce74;
+    this.key = "a64018b69373ca9136664eb9e917ce74";
     this.baseURL = 'http://api.openweathermap.org';
     this.getRequestOptions = {
       method: 'GET',
